@@ -1,0 +1,48 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "ST_THIN";
+  src: url(../assets/fonts/SFUIDisplay-Thin.ttf);
+}
+
+@font-face {
+  font-family: "ST_LIGHT";
+  src: url(../assets/fonts/SFUIDisplay-Light.ttf);
+}
+
+@font-face {
+  font-family: "ST_REGULAR";
+  src: url(../assets/fonts/SFUIDisplay-Thin.ttf);
+}
+
+@font-face {
+  font-family: "ST_MEDIUM";
+  src: url(../assets/fonts/SFUIDisplay-Medium.ttf);
+}
+
+@font-face {
+  font-family: "ST_BOLD";
+  src: url(../assets/fonts/SFUIDisplay-Bold.ttf);
+}
+
+.fw-200 {
+  font-family: "ST_THIN";
+}
+
+.fw-300 {
+  font-family: "ST_LIGHT";
+}
+
+.fw-400 {
+  font-family: "ST_REGULAR";
+}
+
+.fw-500 {
+  font-family: "ST_MEDIUM";
+}
+
+.fw-700 {
+  font-family: "ST_BOLD";
+}

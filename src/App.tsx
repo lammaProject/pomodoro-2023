@@ -1,12 +1,16 @@
 import React from "react";
 import "./app.css";
 
+import AddButton from "./components/UI/AddButton/AddButton";
+import Button from "./components/UI/Button/Button";
+import Dropdown from "./components/UI/Dropdown/Dropdown";
+
 export const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="no-underline hover:underline cursor-pointer fw-700">Привет Мирок</h1>
-      </header>
+      <AddButton />
+      <Button text={"Стоп"} color={"red"} />
+      <Dropdown />
     </div>
   );
 };

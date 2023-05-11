@@ -6,7 +6,9 @@
     "plugin:node/recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
   ],
   "env": {
     "node": true,
@@ -17,7 +19,7 @@
   "parserOptions": {
     "sourceType": "module"
   },
-  "plugins": ["prettier", "jest", "react", "@typescript-eslint", "json"],
+  "plugins": ["prettier", "jest", "react", "@typescript-eslint", "json", "import"],
   "rules": {
     "no-process-exit": 0,
     "react/prop-types": 0,

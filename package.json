@@ -9,19 +9,31 @@
     "build": "webpack --mode production"
   },
   "author": "Anton",
+  "crcf": [
+    "typescript",
+    "nocss",
+    "notest",
+    "functional"
+  ],
   "dependencies": {
+    "@reduxjs/toolkit": "^1.5.1",
+    "@types/react": "^18.2.6",
     "autoprefixer": "^10.4.14",
     "css-loader": "^6.7.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-redux": "^7.2.4",
+    "redux": "^4.2.1",
     "typescript": "^5.0.4"
   },
   "devDependencies": {
     "@types/react-dom": "^18.2.4",
     "@typescript-eslint/eslint-plugin": "^5.59.5",
     "@typescript-eslint/parser": "^5.59.5",
+    "create-react-component-folder": "^0.3.7",
     "css-minimizer-webpack-plugin": "^5.0.0",
     "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jest": "^27.2.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",

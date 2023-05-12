@@ -1,16 +1,11 @@
 import React from "react";
 import "./app.css";
-
-import AddButton from "./components/UI/AddButton/AddButton";
-import Button from "./components/UI/Button/Button";
-import Dropdown from "./components/UI/Dropdown/Dropdown";
+import Main from "./components/Main/Main";
 
 export const App = () => {
   return (
     <div className="App">
-      <AddButton />
-      <Button text={"Стоп"} color={"red"} />
-      <Dropdown />
+      <Main />
     </div>
   );
 };
